@@ -1,0 +1,294 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    
+}
+
+.topbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    height: 55px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 20px;
+    z-index: 2;
+}
+.topbar img{
+    position: absolute;
+    height:55px;
+    width: auto;
+    left: 0;
+}
+ .content{
+    text-align: center;
+    width: auto;
+    height: 100%;
+} 
+.navbar-option{
+    font-size: 32px;
+    text-align: center;
+    width: max-content;
+    height: auto;
+    padding: 15px 30px;
+    transition: all 400ms ease;
+    color:#000;
+    
+}
+.topbar a{
+    
+    text-decoration: none;
+    color:#000;
+}
+.navbar-option:hover{
+    background-color: grey;
+    font-weight: bold;
+}
+.title{
+    font-size: 40px;
+    margin-bottom: 3em;
+}
+.closer{
+    margin-top: 3em;
+}
+/* .content > *{
+    height:100%;
+    width: 100%;
+} */
+body .content:nth-child(1){
+    height: 110%;
+}
+
+.two-thirds{
+    width: 60%;
+    
+}
+.one-third{
+    width: 30%;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.637);
+    padding: 20px;
+    border-radius: 5px;
+}
+.c-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pattern1{
+    background-image: url("images/0_5_8_1862058_constructionsite_942146.jpg");
+    background-size: cover;
+
+}
+.pattern2{
+    background-image: url("images/white-brick-wall-texture-seamless_177006-173.jpg");
+    background-size: 19%;
+    background-repeat: repeat;
+
+}
+.pattern3{
+    background-image: url("images/background-contact-us.jpg");
+    background-size: cover;
+
+}
+#txt{
+    font-size: 32px;
+}
+#addressLn{
+    font-size: 32px;
+}
+#logo{
+    font-size: 40px;
+}
+/* .home .one-thirds */
+table, .cnt{
+    margin-left: auto;
+  margin-right: auto;
+}
+
+.content {
+    position: absolute;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.content h2 {
+    color: red;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: bold;
+}
+.content p {
+    margin: 10px auto;
+    width: 100%;
+    text-align: justify;
+    color: lightgray;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+#nutrients .tg  {
+    border-collapse : collapse;
+    border-spacing : 0;
+    zoom: 0.7;
+}
+#addressBox{
+    margin: 50px 0px;
+    font-size: 24px;
+    color: black;
+}
+#addressBox , #addressBox p{
+    color: black;
+}
+
+#intro p{
+    font-size: 24px;
+}
+.tg td{
+    border-color : rgb(56, 54, 54);
+    border-style : solid;
+    border-width : 1px;
+    font-family : Arial, sans-serif;
+    font-size : 14px;
+    overflow : hidden;
+    padding : 10px 20px;
+    word-break : normal;
+}
+.tg th{
+    border-color :rgb(56, 54, 54);
+    border-style : solid;
+    border-width : 1px;
+    font-family : Arial, sans-serif;
+    font-size : 14px;
+    font-weight : normal;
+    overflow : hidden;
+    padding : 10px 20px;
+    word-break : normal;
+}
+.tg .tg-hd{
+    font-family : Impact, Charcoal, sans-serif !important;;
+    font-size : 24px;
+    font-weight : bold;
+    text-align : center;
+    vertical-align : top;
+    color: rgb(199, 13, 6);
+}
+.tg .tg-ct{
+    font-family : Impact, Charcoal, sans-serif !important;;
+    font-size : 20px;
+    text-align : center;
+    vertical-align : top;
+    color: rgb(107, 107, 107);
+}
+.warn{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(199, 13, 6);
+}
+.text-line {
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+    
+}
+form{
+    margin-top: 100px;
+    margin-left: -50px;
+}
+.form form input{
+    font-size: 20px;
+}
+.give-it-more-space{
+    margin: 10px;
+}
+button{
+    background-color: black;
+    color: grey;
+}
+#addressBox p a{
+    color: black;
+    text-decoration: none;
+}
+
+.dialog{
+    /* display: none; */
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 100%;
+    z-index: 100;
+    height: 100%;
+    text-align: center;
+    
+}
+
+#cell{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+
+}
+#cell img{
+    height: 600px;
+    width: auto;
+    z-index: 110;
+}
+#cell .close{
+    float: right;
+    z-index: 120;
+    cursor: pointer;
+}
+
+.lock{
+    overflow: hidden;
+}
+.button{
+    background-color: gray;
+    width:fit-content;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* scrollbar */
+
+body::-webkit-scrollbar {
+    width: 1em;
+    background-color: rgba(255, 255, 255, 0.116);;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.068);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(82, 82, 82);
+    outline: 1px solid slategrey;
+  }
+  @media only screen and (max-width: 1200px) {
+    #contact{
+        width: 80%;
+    }
+    
+  }
